@@ -1,0 +1,11 @@
+LibreHardwareMonitorLib.dll is redistributed unmodified under the
+Mozilla Public License 2.0 (MPL-2.0).
+
+Source and full license text:
+  https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+  https://www.mozilla.org/en-US/MPL/2.0/
+
+HidSharp.dll is redistributed under the Apache License 2.0 / MIT (see
+https://www.zer7.com/software/hidsharp). The bundled System.* assemblies
+(Memory, Buffers, Numerics.Vectors, Runtime.CompilerServices.Unsafe) are
+Microsoft .NET libraries redistributed under the MIT license.

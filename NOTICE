@@ -1,0 +1,27 @@
+Resource Monitor
+Copyright (c) 2026 Resource Monitor contributors
+
+This product's own source code is licensed under the MIT License (see LICENSE).
+
+It redistributes the following third-party binary components under lib/, each
+governed by its own license:
+
+1. LibreHardwareMonitorLib.dll
+   LibreHardwareMonitor — https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+   License: Mozilla Public License 2.0 (MPL-2.0). Full text in lib/LICENSE-LHM.txt.
+
+2. HidSharp.dll
+   HidSharp — https://github.com/IntergatedCircuits/HidSharp
+   License: Apache License 2.0 (dual-licensed Apache-2.0 / MIT).
+
+3. System.Memory.dll, System.Buffers.dll, System.Numerics.Vectors.dll,
+   System.Runtime.CompilerServices.Unsafe.dll
+   Microsoft .NET runtime support assemblies.
+   License: MIT License (Microsoft / .NET Foundation).
+
+These components are bundled unmodified for runtime hardware-sensor access via
+pythonnet. Redistribution of this project must preserve these notices and the
+accompanying licenses.
+
+Python dependencies (installed via pip, not bundled here): PySide6, psutil,
+nvidia-ml-py, pythonnet — each under its own license.
